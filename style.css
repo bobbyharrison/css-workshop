@@ -1,29 +1,23 @@
 
 
+body {
+margin: 30px;
+}
+
+div{
+margin: 20px;
+}
+
 .boxshadow {
   width: 400px;
   height: 200px;
   background-color: purple;
-  box-shadow: 20px 20px 15px #888888;
-  float: left;
-  margin-right: 30px;
+  box-shadow: 20px 20px 50px 20px black;
+  float: right;
+  animation-duration: 5s;
   
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .border {
 height: 50px;
@@ -32,9 +26,7 @@ width: 50px;
 border-radius: 100%;
 border-image
 padding: 50px;
-
 }
-
 
 .doberman {
 height: 100px;
@@ -45,26 +37,54 @@ border-length: 20px;
 padding: 20px;
 }
 
+.word {
+word-wrap: break-word;
+width: 40px;
+background-color: cyan;
+}
 
+.gradient {
+width: 100px;
+height: 100px;
+background-color: red;
+background: repeating-radial-gradient(rgba(244,244,244,0), red);
+}
 
+.transition {
+height: 100px;
+width: 100px;
+background-color: green;
+transition: height 3s, width 5s, transform 5s;
+}
 
-
-
-
-.boxshadow {
-  width: 400px;
-  height: 200px;
-  background-color: purple;
-  box-shadow: 20px 20px 15px #888888;
-  float: left;
-  margin-right: 30px;
-
+.transiton:hover {
+transition-duration: 5s;
+background-color: red;
 }
 
 
+.obi {
+height: 100px;
+width: 100px;
+opacity: 1;
+}
 
-.word {
-word-wrap: break-word;
-width: 20px;
-background-color: cyan;
+.obi-half {
+height: 100px;
+width: 100px;
+opacity: .5;
+}
+
+.obi-quart {
+height: 100px;
+width: 100px;
+opacity: .25;
+}
+
+.align1 {
+text-align: left;
+}
+
+.align2 {
+text-align: right;
 }
