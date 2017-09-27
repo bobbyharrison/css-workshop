@@ -3,4 +3,32 @@ height: 50px;
 background-color: green;
 width: 50px;
 border-radius: 100%;
+border-image
+padding: 50px;
+
+}
+
+
+.doberman {
+height: 100px;
+width: 100px;
+border-image: url(images/abstract.jpeg);
+border-width: 20px;
+border-length: 20px;
+padding: 20px;
+}
+
+
+
+
+
+
+
+.boxshadow {
+  width: 400px;
+  height: 200px;
+  background-color: purple;
+  box-shadow: 20px 20px 15px #888888;
+  float: left;
+  margin-right: 30px;
 }
