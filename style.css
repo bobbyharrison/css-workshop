@@ -1,3 +1,30 @@
+
+
+.boxshadow {
+  width: 400px;
+  height: 200px;
+  background-color: purple;
+  box-shadow: 20px 20px 15px #888888;
+  float: left;
+  margin-right: 30px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .border {
 height: 50px;
 background-color: green;
@@ -31,4 +58,13 @@ padding: 20px;
   box-shadow: 20px 20px 15px #888888;
   float: left;
   margin-right: 30px;
+
+}
+
+
+
+.word {
+word-wrap: break-word;
+width: 20px;
+background-color: cyan;
 }
